@@ -1,0 +1,36 @@
+{
+    "required": true,
+    "minVersion": "0.8.2",
+    "compatibilityLevel": "JAVA_8",
+    "package": "com.stevekung.lava_rain.mixin",
+    "refmap": "mixins.lava_rain.refmap.json",
+    "target": "@env(DEFAULT)",
+    "mixins": [
+    	"MixinAbstractPiglinEntity",
+    	"MixinBlazeEntity",
+    	"MixinBucketItem",
+    	"MixinCauldronBlock",
+    	"MixinDifficulty",
+    	"MixinDifficultyInstance",
+    	"MixinDungeonsFeature",
+    	"MixinEndermanEntity",
+    	"MixinFoodStats",
+    	"MixinHoglinEntity",
+    	"MixinItem",
+    	"MixinLavaFluid",
+    	"MixinLightningBoltEntity",
+    	"MixinMobEntity",
+    	"MixinPlayerEntity",
+    	"MixinStriderEntity",
+    	"MixinStructurePiece"
+    ],
+    "client": [
+    	"client.MixinClientPlayNetHandler",
+    	"client.MixinDiggingParticle",
+    	"client.MixinMinecraft",
+    	"client.MixinWorldRenderer"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "options.difficulty.nether_rain": "Nether Rain",
+    "effect.lava_rain.lava": "Lava",
+    "death.attack.lava_rain": "%s was evaporated by lava rain"
+}
